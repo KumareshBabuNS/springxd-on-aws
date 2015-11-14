@@ -6,6 +6,6 @@ chmod 777 install-spring-xd.sh
 ./install-spring-xd.sh
 
 # Run in single node mode (should be able to use symbolic link here):
-sudo /opt/spring-xd-1.2.1.RELEASE/xd/bin/xd-singlenode
+/opt/spring-xd-1.2.1.RELEASE/xd/bin/xd-singlenode
 
 echo "end of install-launch-singlenode"
