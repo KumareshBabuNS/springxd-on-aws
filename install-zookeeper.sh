@@ -10,12 +10,12 @@ yum -y update
 yum -y install unzip
 
 # Download Zookeeper, takes a bit:
-curl -O http://repo.spring.io/libs-release/org/springframework/xd/spring-xd/1.2.1.RELEASE/spring-xd-1.2.1.RELEASE-dist.zip 
+curl -O http://apache.arvixe.com/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz 
 
 # Unzip:
-unzip -q spring-xd-1.2.1.RELEASE-dist 
+unzip -q zookeeper-3.4.6.tar.gz 
 
 # Move:
-mv spring-xd-1.2.1.RELEASE /opt/ 
+mv zookeeper-3.4.6 /opt/ 
 
 echo "end of Zookeeper install"
