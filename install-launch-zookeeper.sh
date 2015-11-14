@@ -10,9 +10,7 @@ curl -O https://raw.githubusercontent.com/kennyk65/springxd-on-aws/master/instal
 chmod 777 install-zookeeper.sh
 ./install-zookeeper.sh
 
-# Run zookeeper contained within XD download:
-/opt/spring-xd-1.2.1.RELEASE/zookeeper/bin xd/bin/xd-singlenode  bin/zkServer.sh start-foreground ../spring-xd-1.0.3.RELEASE/zookeeper/conf/zoo.cfg
-
-
+# Run zookeeper, using configuration found within the XD download:
+/opt/zookeeper-3.4.6/bin/zkServer.sh start-foreground /opt/spring-xd-1.2.1.RELEASE/zookeeper/conf/zoo.cfg
 
 echo "end of install-launch-zookeeper"
