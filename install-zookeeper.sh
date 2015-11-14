@@ -12,8 +12,8 @@ yum -y install unzip
 # Download Zookeeper, takes a bit:
 curl -O http://apache.arvixe.com/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz 
 
-# Unzip:
-unzip -q zookeeper-3.4.6.tar.gz 
+# Expand:
+tar -zxvf zookeeper-3.4.6.tar.gz 
 
 # Move:
 mv zookeeper-3.4.6 /opt/ 
