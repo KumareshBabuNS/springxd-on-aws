@@ -24,4 +24,4 @@ mv spring-xd-1.2.1.RELEASE /opt/
 #sudo ln -s /opt/spring-xd-1.2.1.RELEASE /opt/spring-xd
 #sudo ln /opt/spring-xd-1.2.1.RELEASE/xd/bin/xd-singlenode ~/xd-singlenode
 
-echo "end of script"
+echo "end of install-spring-xd.sh script"
