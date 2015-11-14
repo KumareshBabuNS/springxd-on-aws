@@ -4,10 +4,10 @@
 # Note that user-data scripts in AWS are intended for first-time initialization only.
 
 # Download the file:
-curl -O https://raw.githubusercontent.com/kennyk65/springxd-on-aws/master/install-spring-xd.sh
+curl -O https://raw.githubusercontent.com/kennyk65/springxd-on-aws/master/install-launch-singlenode.sh
 
 # Make it executable:
-chmod 777 install-spring-xd.sh
+chmod 777 install-launch-singlenode.sh
 
 # Execute it:
-./install-spring-xd.sh
+./install-launch-singlenode.sh
