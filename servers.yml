@@ -147,7 +147,7 @@ xd:
 #Config for use with Postgres - uncomment and edit with relevant values for your environment
 spring:
   datasource:
-    url:  jdbc:postgresql://czgkko8fbdlm.us-west-1.rds.amazonaws.com:5432/xd-batch-repo
+    url:  jdbc:postgresql://xd-batch-repo.czgkko8fbdlm.us-west-1.rds.amazonaws.com:5432
     username: username
     password: password
     driverClassName: org.postgresql.Driver
