@@ -263,7 +263,7 @@ endpoints:
 spring:
   redis:
    port: 6379
-   host: redis-repl-grp-002.73t6rg.0001.usw1.cache.amazonaws.com
+   host: redis-repl-grp.73t6rg.ng.0001.usw1.cache.amazonaws.com
 #   sentinel:
 #     master: mymaster
 #     nodes: 127.0.0.1:26379,127.0.0.1:26380,127.0.0.1:26381
