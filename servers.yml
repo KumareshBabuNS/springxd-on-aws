@@ -114,7 +114,7 @@
 spring:
   profiles: singlenode
 xd:
-  transport: redis
+  transport: local
 #embeddedHsql: true
 
 ---
@@ -260,10 +260,10 @@ endpoints:
 
 ---
 # Redis properties
-spring:
-  redis:
-   port: 6379
-   host: redis-repl-grp.73t6rg.ng.0001.usw1.cache.amazonaws.com
+#spring:
+#  redis:
+#   port: 6379
+#   host: redis-repl-grp.73t6rg.ng.0001.usw1.cache.amazonaws.com
 #   sentinel:
 #     master: mymaster
 #     nodes: 127.0.0.1:26379,127.0.0.1:26380,127.0.0.1:26381
